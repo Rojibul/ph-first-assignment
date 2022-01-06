@@ -118,6 +118,26 @@ border-bottom: 150px;}
    ;
 }
 
+.section-before-five{
+    display:flex;
+    padding: 85px;
+    margin-right: 25px;
+border-bottom: 150px;}
+
+.section-before-five img{
+    height: 350px;
+    width: 500px;
+    border-radius: 15px;
+}
+.before-paragraph{
+    padding-left: 45px;
+}
+.three-paragraph h2{
+    font-size: 35px; 
+}
+
+
+
 .section-five{
    padding-top: 15px;
     background-color: rgb(0, 0, 0);
