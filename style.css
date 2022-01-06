@@ -1,15 +1,30 @@
 body{
     border: 0px;
-    padding: 0px 75px 0 75px;
     background-color: antiquewhite;
+}
+.total-body p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px ;
+}
+.total-body a{
+    text-decoration: none;
+    background-image: radial-gradient( rgb(180, 152, 132), rgb(241, 110, 15) );
+    border-radius: 5px;
+    padding: 8px 55px;
 }
 .section-one{
     display: flex;
     height: 19%;
+    padding-left: 75px;
 }
+.head-color{
+    color: chocolate;
+}
+
 .weitten{
     width: 50%;
 }
+
 .headline{ font-size: 80px;
     border-left: 5px solid orangered;
 
@@ -20,4 +35,33 @@ body{
 .photo {
     margin-left: 90px;
     width: 50%;
+}
+.section_two h1{
+    font-size: 50px;
+    font-family: Chalkduster, fantasy;
+    text-align: center;
+}
+.section_two span{
+    color: coral;
+}
+.second-section{
+    display: flex;
+    
+}
+.second-section section-two{
+    
+}
+
+.second-section img{
+    height: 100px;
+    width: 100px;
+}
+.section-three{
+    display:flex;
+}
+.section-four{
+    display:flex;
+}
+.section-five{
+    background-color: black;
 }
