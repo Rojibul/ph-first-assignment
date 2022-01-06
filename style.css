@@ -7,6 +7,8 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px ;
 }
+
+
 .total-body a{
     text-decoration: none;
     background-image: radial-gradient( rgb(180, 152, 132), rgb(241, 110, 15) );
@@ -19,21 +21,25 @@ body{
     padding-left: 75px;
     margin-bottom: 150px;
     }
+.headline{
+    border-left: 15px solid orangered;
+    
+}
 .head-color{
     color: chocolate;
 }
 
 .weitten{
     width: 50%;
-}
-
-.headline{ font-size: 80px;
-    border-left: 5px solid orangered;
-
-}
-.weitten {
     font-size: 100px;
 }
+
+
+.headline{ 
+    font-size: 80px;
+    margin-left: 5px solid orange;  
+}
+
 .photo {
     margin-left: 90px;
     width: 50%;
@@ -103,11 +109,31 @@ border-bottom: 150px;}
     
     border-radius: 15px;
 }
+.four-paragraph{
+    margin-right: 30px;
+}
 .four-paragraph h2{
     font-size: 35px;
    ;
 }
 
 .section-five{
-    background-color: black;
+   
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+}
+.section-five h3{
+    color: white;
+    font-size: 25px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: center;
+}
+.section-five span{
+    color: orange;
+}
+.section-five p{
+    color:papayawhip;
+    text-align: center;
+    
+    font-family: Comic Sans MS, Comic Sans, cursive;
 }
