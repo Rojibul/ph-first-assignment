@@ -1,6 +1,7 @@
 body{
     border: 0px;
     background-color: antiquewhite;
+    padding: 0;
 }
 .total-body p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -73,17 +74,40 @@ body{
 }
 .section-three{
     display:flex;
-}
+    padding: 85px;
+    margin-right: 25px;
+border-bottom: 150px;}
+
 .section-three img{
     height: 350px;
     width: 500px;
-    border-radius: 10px;
-    padding-left: 80px;
+    border-radius: 15px;
 }
+.three-paragraph{
+    padding-left: 45px;
+}
+.three-paragraph h2{
+    font-size: 35px; 
+}
+
 
 .section-four{
     display:flex;
+    padding: 75px;
+    margin-left: 25px;
+    border-right: 15px;
 }
+.section-four img{
+    height:350px;
+    width:500px;
+    
+    border-radius: 15px;
+}
+.four-paragraph h2{
+    font-size: 35px;
+   ;
+}
+
 .section-five{
     background-color: black;
 }
