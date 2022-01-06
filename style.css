@@ -23,7 +23,8 @@ body{
     }
 .headline{
     border-left: 15px solid orangered;
-    
+    position: relative;
+       
 }
 .head-color{
     color: chocolate;
@@ -118,9 +119,9 @@ border-bottom: 150px;}
 }
 
 .section-five{
-   
+   padding-top: 15px;
     background-color: rgb(0, 0, 0);
-    height: 100px;
+    height: 150px;
 }
 .section-five h3{
     color: white;
